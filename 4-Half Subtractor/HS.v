@@ -1,5 +1,5 @@
 module HS (
-input wire x,y,
+input wire x,y, // X is the most significant bit
 output wire D,B
 );
 assign D = x^y;
