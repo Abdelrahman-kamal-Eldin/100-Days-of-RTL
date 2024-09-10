@@ -3,8 +3,8 @@ module HS_tb;
 reg x,y;
 wire D,B;
 
-HS Test (     // OR write HS Test(x,y,B,D);
-        .x(x), 
+	HS Test (     // OR write HS Test(x,y,D,B);
+	.x(x), 
 	.y(y), 
 	.D(D), 
 	.B(B)
