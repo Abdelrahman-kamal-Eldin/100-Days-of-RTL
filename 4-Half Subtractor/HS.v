@@ -1,6 +1,6 @@
 module HS (
 input wire x,y,
-output wire B,D
+output wire D,B
 );
 assign D = x^y;
 assign B = ~x&y;
